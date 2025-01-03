@@ -16,17 +16,17 @@ return {
       harpoon.ui:toggle_quick_menu(harpoon:list())
     end)
 
-    vim.keymap.set("n", "<C-j>", function()
+    vim.keymap.set("n", "<C-h>", function()
+      harpoon:list():select(1)
+    end)
+    vim.keymap.set("n", "<C-t>", function()
       harpoon:list():select(2)
     end)
-    vim.keymap.set("n", "<C-k>", function()
+    vim.keymap.set("n", "<C-n>", function()
       harpoon:list():select(3)
     end)
-    vim.keymap.set("n", "<C-l>", function()
+    vim.keymap.set("n", "<C-s>", function()
       harpoon:list():select(4)
-    end)
-    vim.keymap.set("n", "<C-;>", function()
-      harpoon:list():select(1)
     end)
 
     -- Toggle previous & next buffers stored within Harpoon list

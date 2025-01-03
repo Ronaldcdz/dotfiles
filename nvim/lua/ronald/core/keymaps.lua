@@ -37,8 +37,12 @@ vim.opt.incsearch = true
 -----  OIL ------ ff
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
---disabling moving through panes with default keys(NO FUNCIONA)
-vim.keymap.set("n", "C-j", "<nop>")
-vim.keymap.set("n", "C-k", "<nop>")
-vim.keymap.set("n", "C-l", "<nop>")
-vim.keymap.set("n", "C-;", "<nop>")
+-- disabling defaults vim commands
+vim.keymap.set("n", "C-h", "<nop>")
+vim.keymap.set("n", "C-t", "<nop>")
+vim.keymap.set("n", "C-n", "<nop>")
+vim.keymap.set("n", "C-s", "<nop>")
+
+-- go out of insert mode
+
+vim.keymap.set("i", "jk", "<ESC>")
