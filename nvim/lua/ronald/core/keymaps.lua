@@ -45,4 +45,4 @@ vim.keymap.set("n", "C-s", "<nop>")
 
 -- go out of insert mode
 
-vim.keymap.set("i", "jk", "<ESC>")
+vim.keymap.set("i", "ht", "<ESC>")
