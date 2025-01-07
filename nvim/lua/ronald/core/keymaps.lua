@@ -38,11 +38,11 @@ vim.opt.incsearch = true
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 -- disabling defaults vim commands
-vim.keymap.set("n", "C-h", "<nop>")
+vim.keymap.set("n", "<C-h>", "<nop>")
 vim.keymap.set("n", "C-t", "<nop>")
 vim.keymap.set("n", "C-n", "<nop>")
 vim.keymap.set("n", "C-s", "<nop>")
-
+-- vim.keymap.del("n", "<c-h>")
 -- go out of insert mode
 
 vim.keymap.set("i", "ht", "<ESC>")
