@@ -24,6 +24,7 @@ vim.keymap.set("n", "n", "nzz")
 vim.keymap.set("n", "N", "Nzz")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "G", "Gzz")
 vim.keymap.set(
   "n",
   "<leader>ss",
@@ -45,4 +46,4 @@ vim.keymap.set("n", "C-s", "<nop>")
 -- vim.keymap.del("n", "<c-h>")
 -- go out of insert mode
 
-vim.keymap.set("i", "ht", "<ESC>")
+-- vim.keymap.set("i", "ht", "<ESC>")
