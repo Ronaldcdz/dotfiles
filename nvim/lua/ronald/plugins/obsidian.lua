@@ -23,7 +23,7 @@ return {
       workspaces = {
         {
           name = "ronald notes", -- Name of the workspace
-          path = "/mnt/c/Users/LUGOTECH_RD_4/Desktop/Ronald/Obsidian/Ronald Notes/", -- Path to the notes directory
+          path = "/mnt/c/Users/LUGOTECH_RD_4/Desktop/Ronald/Obsidian/Ronald Notes/Obsidian-Vaults/", -- Path to the notes directory
         },
         {
           name = "work", -- Name of the workspace
